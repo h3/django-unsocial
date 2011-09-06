@@ -13,7 +13,7 @@ Unsocial is there to address those annoyance.
 Installation
 ------------
 
- 1. add ** to *MIDDLEWARE_CLASSES* your *settings.py*
+ 1. add *unsocial.middleware.UnsocialMiddleware* to *MIDDLEWARE_CLASSES* your *settings.py*
 
  2. Set *UNSOCIAL = True* in your *settings.py*
 
