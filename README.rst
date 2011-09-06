@@ -22,14 +22,14 @@ Customizing
 -----------
 
 A simple list of regular expressions are used to comment unwanted HTML chunks.
-It's possible to override the default list in your *settings.py* like this:
+It's possible to override the default list in your *settings.py* like this::
 
 UNSOCIAL_PATTERNS = [
     r'(<script\s+?.*facebook\.\w+\/.*</script>)',
     r'(<fb:like\s+?.*</fb:like>)',
 ]
 
-Or extend it like this:
+Or extend it like this::
 
 from unsocial.blocklist import PATTERNS
 
