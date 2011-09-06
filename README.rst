@@ -31,7 +31,7 @@ It's possible to override the default list in your *settings.py* like this::
 
 Or extend it like this::
 
-from unsocial.blocklist import PATTERNS
+    from unsocial.blocklist import PATTERNS
 
     UNSOCIAL_PATTERNS = PATTERNS + [
         r'(<fb:wall\s+?.*</fb:wall>)',
